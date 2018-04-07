@@ -3,47 +3,100 @@
 <html>
 
   <head>
-
-     <title>Our first webpage</title>
-
-     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+     <title>Kontrata</title>
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- Lidhja me bootstrap -->
+      <meta charset="UTF-8"> <!-- Sherben per paraqitjen e shkronjave Ë dhe Ç -->
   </head>
-
-
-
   <body>
+    <div class="container">
+        <h1 style="color: #007fdb;"><b>Shto kontratën e re</b></h1>
+        <br>
 
+        <!-- Prokurorimi -->
+        <h3> Prokurorimi </h3>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="formGroupExampleInput">Nr rendor i prokurorimit</label>
+              <input type="text" class="form-control"   placeholder="Nr rendor i prokurorimit">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="formGroupExampleInput">Lloji i prokurorimit</label>
+              <input type="type" class="form-control" placeholder="Lloji i prokurorimit">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Aktiviteti i prokurorimit</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Aktiviteti i prokurorimit">
+          </div>
+          <!-- Ketu perfundon prokurorimi -->
+          <br>
 
+          <!-- Datat -->
+          <h3>Datat:</h3>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="formGroupExampleInput">Data e inicimit te aktivitetit</label>
+                  <input class="form-control" type="date" value="2018-04-07" id="example-date-input">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="formGroupExampleInput">Data e publikimit te shpalljes</label>
+                  <input class="form-control" type="date" value="2018-04-09" id="example-date-input">
+              </div>
+            </div>
+          
+          <div class="form-group">
+            <label for="formGroupExampleInput">Data e nenshkrimit te kontrates</label>
+            <input class="form-control" type="date" value="2018-04-09" id="example-date-input">
+          </div>
+          <br>
+          <h6>Afatet per implementim te kontrates</h6>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                <input class="form-control" type="date" value="2018-04-07" id="example-date-input">
+            </div>
+          <div class="form-group col-md-6">
+                <input class="form-control" type="date" value="2018-04-09" id="example-date-input">
+          </div>
+          </div>
+                    <div class="form-group">
+            <label for="formGroupExampleInput">Data e permbylljes se kontrates (data e pranimit te perkohshem / preliminar)</label>
+            <input class="form-control" type="date" value="2018-04-09" id="example-date-input">
+          </div>
+          <!-- Ketu perfundojn datat -->
+          <br>
 
-     <div class="container">
+          <!-- Cmimet -->
+          <h2>Çmimi dhe të dhëna të tjera:</h2>
 
-        <div class="row">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="formGroupExampleInput">Çmimi i kontratës (pershirë të gjitha taksat)</label>
+              <input type="text" class="form-control"   placeholder="Çmimi i kontratës">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="formGroupExampleInput">Çmimi total i paguar per kontrat</label>
+              <input type="type" class="form-control" placeholder="Çmimi total">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Emri i te cilit i eshte dhene kontrata</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Emri dhe mbiemri">
+          </div>
+          <!-- Ketu perfundojn cmimet-->
 
-           <div class="col-md-2 offset-md-2 column">
+          <br>
 
-              <p>First Column Content</p>
-
-           </div>
-
-           <div class="col-md-2 offset-md-2 column">
-
-              <p>Second Column Content</p>
-
-           </div>
-
-           <div class="col-md-4 column">
-
-              <p>Third Column Content</p>
-
-           </div>
-
-        </div>
-
-     </div>
-
-
-
+          <!-- Dergo dhe fshij -->
+          <div class="form-group">
+            <div class="col-xs-12 text-center">
+              <input type="Submit" class="btn btn-primary btn-lg" value="Dergo">
+              <input type="reset" class="btn btn-secondary btn-lg" value="Fshij">
+            </div>
+          </div>
+          <!-- Ketu perfundon Dergo dhe Fshij -->
+        </form>
+    </div>
   </body>
-
 </html>
+ <!-- 04.07.2018 15:50 -->
